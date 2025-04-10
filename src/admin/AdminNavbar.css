@@ -1,0 +1,88 @@
+/* Navbar container with top-to-bottom gradient effect */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: linear-gradient(to bottom, #132333, #2c3e50e8, #2c3e50e0 ); /* Dark to Light Teal */
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Glow effect */
+}
+  
+  /* Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white; /* Ensures the logo is white */
+  text-decoration: none; /* Removes any default styling */
+  cursor: pointer; /* Ensure it behaves like a link */
+}
+
+.logo:hover {
+  color: #b3d1ff;
+}
+
+  /* Navigation Links */
+.nav-links {
+    display: flex;
+    gap: 40px; /* Increased spacing to balance alignment */
+    list-style: none;
+    padding-right: 30px; /* Shifts items slightly left */
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    cursor: pointer; /* Ensure pointer cursor */
+}
+
+  
+  .nav-links li a:hover {
+    color: #b3d1ff; /* Light blue hover effect */
+  }
+  
+  /* Mobile Menu Button */
+  .menu-btn {
+    display: none;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Responsive Menu for Mobile */
+  @media (max-width: 768px) {
+    .menu-btn {
+      display: block;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background: linear-gradient(to bottom, #2C3E50, #2C3E50); /* Gradient for Mobile Menu */
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 200px;
+      text-align: left;
+      padding: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .nav-links li {
+      padding: 10px 0;
+    }
+  }
+  

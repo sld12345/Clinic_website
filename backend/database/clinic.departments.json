@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "679b0f8493e21d7ac21b2a2a"
+  },
+  "dept_id": 1,
+  "dept_name": "Dentistry"
+},
+{
+  "_id": {
+    "$oid": "679b0f8493e21d7ac21b2a2b"
+  },
+  "dept_id": 2,
+  "dept_name": "Pediatrics"
+},
+{
+  "_id": {
+    "$oid": "679b0f8493e21d7ac21b2a2c"
+  },
+  "dept_id": 3,
+  "dept_name": "ENT"
+},
+{
+  "_id": {
+    "$oid": "679b0f8493e21d7ac21b2a2d"
+  },
+  "dept_id": 4,
+  "dept_name": "General Physician"
+},
+{
+  "_id": {
+    "$oid": "679b0f8493e21d7ac21b2a2e"
+  },
+  "dept_id": 5,
+  "dept_name": "Ophthalmology"
+}]

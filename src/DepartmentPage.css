@@ -1,0 +1,344 @@
+/* Department Page */
+.department-page {
+    padding-top: 80px;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Department Header */
+.department-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.department-header h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #132333;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.department-header h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #2a7fba;
+    transition: width 0.6s ease-out;
+}
+
+.department-header h1:hover::after {
+    width: 120px;
+}
+
+/* Department Content Layout */
+.department-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+/* Department Image */
+.department-image {
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 40px;
+    perspective: 1500px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.department-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Fallback for missing images */
+.department-image img:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    z-index: -1;
+}
+
+/* Department Description */
+.department-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+}
+
+/* Treatments Section */
+.treatments-section {
+    width: 100%;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.treatments-section h2 {
+    font-size: 2rem;
+    color: #2a7fba;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.treatments-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: #2a7fba;
+    transition: width 0.3s ease;
+}
+
+.treatments-section h2:hover::after {
+    width: 100px;
+}
+
+.treatments-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.treatments-list li {
+    background: #f0f8ff;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: #2a7fba;
+    font-weight: 500;
+    list-style: none;
+    transition: all 0.3s ease;
+    cursor: default;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.treatments-list li:hover {
+    background: #2a7fba;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(42, 127, 186, 0.2);
+}
+
+/* Doctors Section */
+.doctors-section {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.doctors-section h2 {
+    font-size: 2rem;
+    color: #2a7fba;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.doctors-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: #2a7fba;
+    transition: width 0.3s ease;
+}
+
+.doctors-section h2:hover::after {
+    width: 100px;
+}
+
+.doctors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.doctor-card {
+    background: white;
+    border-radius: 10px;
+    padding: 25px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doctor-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #2a7fba;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+}
+
+.doctor-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.doctor-card:hover::before {
+    transform: scaleX(1);
+}
+
+.doctor-image-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    border: 3px solid #e1f0fa;
+    position: relative;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.doctor-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease;
+}
+
+.doctor-card:hover .doctor-image {
+    transform: scale(1.05);
+}
+
+.doctor-name {
+    font-size: 1.2rem;
+    color: #2a7fba;
+    margin: 10px 0 5px;
+    font-weight: 600;
+}
+
+.doctor-specialization {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .department-header h1 {
+        font-size: 2.5rem;
+    }
+    
+    .department-image img {
+        height: 350px;
+    }
+    
+    .doctors-grid {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .department-page {
+        padding-top: 70px;
+    }
+
+    .department-header {
+        margin-bottom: 40px;
+    }
+
+    .department-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .department-image img {
+        height: 300px;
+    }
+
+    .treatments-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .doctors-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .department-header h1 {
+        font-size: 2rem;
+    }
+
+    .department-description {
+        font-size: 1rem;
+    }
+
+    .treatments-list {
+        grid-template-columns: 1fr;
+    }
+
+    .doctors-grid {
+        grid-template-columns: 1fr;
+        max-width: 350px;
+    }
+    
+    .doctor-image-container {
+        width: 130px;
+        height: 130px;
+    }
+}

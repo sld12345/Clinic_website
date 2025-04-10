@@ -1,0 +1,163 @@
+.admin-appointments {
+  padding: 24px;
+  font-family: Arial, sans-serif;
+}
+
+.admin-appointments h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+  margin-top:80px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.appointments-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.appointments-table thead {
+  background-color: #44505f;
+  color: rgb(66, 66, 66);
+}
+
+.appointments-table th, 
+.appointments-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.appointments-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Apply hover effect only to table body rows */
+.appointments-table tbody tr:hover {
+  background-color: #d3d3d3;
+}
+
+.no-appointments {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #777;
+}
+
+.admin-appointments {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.admin-appointments h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-group label {
+  font-weight: 500;
+}
+
+.filter-group input {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.clear-filters {
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  color:#1f1f20;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.clear-filters:hover {
+  background-color: #e0e0e0;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.appointments-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.appointments-table th, 
+.appointments-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.appointments-table th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+}
+
+.appointments-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.no-appointments {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+
+.loading {
+  padding: 15px;
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
+
+.error {
+  padding: 15px;
+  text-align: center;
+  color: #d32f2f;
+  background-color: #fde8e8;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .filter-group {
+    width: 100%;
+  }
+  
+  .filter-group input {
+    width: 100%;
+  }
+}

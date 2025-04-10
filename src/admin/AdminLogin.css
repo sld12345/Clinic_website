@@ -1,0 +1,87 @@
+/* Ensure full-page background */
+.admin-login {
+    background: url("/images/bg.jpg") no-repeat center center/cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Background overlay */
+  .admin-login::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Login content container */
+  .admin-login-content {
+    position: relative;
+    z-index: 2;
+    max-width: 400px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Input styling */
+  input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  /* Button styling */
+  .login-btn, .cancel-btn {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .login-btn {
+    background: linear-gradient(to right, #122c46, #434444);
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-btn:hover {
+    background: linear-gradient(to right, #061218, #1a2e42);
+    box-shadow: 0px 0px 10px rgba(20, 108, 148, 0.7);
+    transform: scale(1.05);
+  }
+  
+  .cancel-btn {
+    background: rgb(90, 90, 90);
+    color: white;
+  }
+  
+  .cancel-btn:hover {
+    background: rgb(41, 41, 41);
+  }
+  

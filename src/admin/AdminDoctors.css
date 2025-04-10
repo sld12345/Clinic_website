@@ -1,0 +1,146 @@
+/* AdminDoctors.css */
+
+.admin-doctors {
+    margin-top: 80px; /* Adjust to create space below the navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 20px; /* Added left padding for space */
+  }
+  
+  .admin-doctors h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .doctors-table {
+    width: 100%; /* Increased width */
+    border-collapse: collapse;
+    text-align: center;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 30px; /* Added left margin for space */
+  }
+  
+  thead tr {
+    background-color: #f4f4f4;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+  }
+  
+  th {
+    font-weight: bold;
+    background-color: #e0e0e0;
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .tooltip .tooltip-text {
+    visibility: hidden;
+    width: 60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /* Edit Form Overlay */
+.edit-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.edit-form h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.edit-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.edit-form input {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.update-btn {
+  background: linear-gradient(to right, #061218, #1a2e42);
+  color: white;
+  padding: 10px 20px; /* Increased padding for a longer button */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px; /* Set a fixed width to ensure it's longer */
+}
+
+.cancel-btn {
+  background: rgb(90, 90, 90);
+  color: white;
+  padding: 6px 10px; /* Reduced padding for a smaller button */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 90px; /* Set a fixed width to ensure it's shorter */
+}
+
+.update-btn:hover {
+  background: linear-gradient(to right, #061218, #1a2e42);
+}
+
+.cancel-btn:hover {
+  background: rgb(41, 41, 41);
+}

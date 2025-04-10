@@ -1,0 +1,219 @@
+[{
+  "_id": {
+    "$oid": "67b19c46a586a2f62c6d5fa9"
+  },
+  "doc_id": 1,
+  "day_of_week": "Mon",
+  "date": "2025-04-07",
+  "session": "Morning",
+  "start_time": "09:00",
+  "end_time": "12:00"
+},
+{
+  "_id": {
+    "$oid": "67b19c46a586a2f62c6d5faa"
+  },
+  "doc_id": 1,
+  "day_of_week": "Mon",
+  "date": "2025-04-07",
+  "session": "Evening",
+  "start_time": "16:00:00",
+  "end_time": "19:00:00"
+},
+{
+  "_id": {
+    "$oid": "67b19c46a586a2f62c6d5fab"
+  },
+  "doc_id": 1,
+  "day_of_week": "Wed",
+  "date": "2025-04-09",
+  "session": "Morning",
+  "start_time": "10:00",
+  "end_time": "13:00:00"
+},
+{
+  "_id": {
+    "$oid": "67b19c46a586a2f62c6d5fac"
+  },
+  "doc_id": 1,
+  "day_of_week": "Wed",
+  "date": "2025-04-09",
+  "session": "Evening",
+  "start_time": "15:00:00",
+  "end_time": "18:00:00"
+},
+{
+  "_id": {
+    "$oid": "67b19c46a586a2f62c6d5fad"
+  },
+  "doc_id": 2,
+  "day_of_week": "Tue",
+  "date": "2025-04-08",
+  "session": "Morning",
+  "start_time": "08:30:00",
+  "end_time": "11:30:00"
+},
+{
+  "_id": {
+    "$oid": "67b19c46a586a2f62c6d5fae"
+  },
+  "doc_id": 2,
+  "day_of_week": "Tue",
+  "date": "2025-04-08",
+  "session": "Evening",
+  "start_time": "17:00:00",
+  "end_time": "20:00:00"
+},
+{
+  "_id": {
+    "$oid": "67b19c46a586a2f62c6d5faf"
+  },
+  "doc_id": 2,
+  "day_of_week": "Thu",
+  "date": "2025-04-10",
+  "session": "Morning",
+  "start_time": "09:00:00",
+  "end_time": "12:00:00"
+},
+{
+  "_id": {
+    "$oid": "67b19c46a586a2f62c6d5fb0"
+  },
+  "doc_id": 2,
+  "day_of_week": "Thu",
+  "date": "2025-04-10",
+  "session": "Evening",
+  "start_time": "18:00:00",
+  "end_time": "21:00:00"
+},
+{
+  "_id": {
+    "$oid": "67e9902f6cab0767d884a9a7"
+  },
+  "doc_id": 9,
+  "day_of_week": "Mon",
+  "date": "2025-04-07",
+  "session": "Morning",
+  "start_time": "09:00:00",
+  "end_time": "12:00"
+},
+{
+  "_id": {
+    "$oid": "67ed4928b08627facb671d42"
+  },
+  "doc_id": 8,
+  "day_of_week": "Thursday",
+  "date": "2025-04-10",
+  "session": "Evening",
+  "start_time": "19:56",
+  "end_time": "22:56",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ed7af2b6c52f8697b7be74"
+  },
+  "doc_id": 1,
+  "day_of_week": "Thursday",
+  "date": "2025-04-05",
+  "session": "Morning",
+  "start_time": "09:00",
+  "end_time": "12:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ed8754b6c52f8697b7bedb"
+  },
+  "doc_id": 6,
+  "day_of_week": "Tuesday",
+  "date": "2025-04-04",
+  "session": "Morning",
+  "start_time": "10:00",
+  "end_time": "13:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eda45addd5eb536fd84938"
+  },
+  "doc_id": 3,
+  "day_of_week": "Saturday",
+  "date": "2025-04-05",
+  "session": "Morning",
+  "start_time": "10:00",
+  "end_time": "13:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eda474ddd5eb536fd8493f"
+  },
+  "doc_id": 4,
+  "day_of_week": "Monday",
+  "date": "2025-04-07",
+  "session": "Morning",
+  "start_time": "09:00",
+  "end_time": "12:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eda49bddd5eb536fd84944"
+  },
+  "doc_id": 4,
+  "day_of_week": "Monday",
+  "date": "2025-04-07",
+  "session": "Evening",
+  "start_time": "15:00",
+  "end_time": "19:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eda4c0ddd5eb536fd8494a"
+  },
+  "doc_id": 10,
+  "day_of_week": "Tuesday",
+  "date": "2025-04-08",
+  "session": "Evening",
+  "start_time": "15:00",
+  "end_time": "20:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eda4f0ddd5eb536fd84952"
+  },
+  "doc_id": 5,
+  "day_of_week": "Wednesday",
+  "date": "2025-04-09",
+  "session": "Evening",
+  "start_time": "17:00",
+  "end_time": "20:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eda540ddd5eb536fd84959"
+  },
+  "doc_id": 7,
+  "day_of_week": "Thursday",
+  "date": "2025-04-10",
+  "session": "Afternoon",
+  "start_time": "10:00",
+  "end_time": "13:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eda566ddd5eb536fd8495e"
+  },
+  "doc_id": 7,
+  "day_of_week": "Thursday",
+  "date": "2025-04-10",
+  "session": "Evening",
+  "start_time": "17:00",
+  "end_time": "20:00",
+  "__v": 0
+}]

@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "679b135293e21d7ac21b2a31"
+  },
+  "doc_id": 1,
+  "doc_name": "Dr. Asha Nair",
+  "specialization": "Orthodontics",
+  "qualification": "BDS",
+  "dept_id": 1,
+  "image": "asha_nair.png"
+},
+{
+  "_id": {
+    "$oid": "679b135293e21d7ac21b2a32"
+  },
+  "doc_id": 2,
+  "doc_name": "Dr. Sneha Mathew",
+  "specialization": "Pediatric Care",
+  "qualification": "MBBS, MD",
+  "dept_id": 2,
+  "image": "sneha_mathew.png"
+},
+{
+  "_id": {
+    "$oid": "679b135293e21d7ac21b2a33"
+  },
+  "doc_id": 3,
+  "doc_name": "Dr. Kavya Warrier",
+  "specialization": "Audiology",
+  "qualification": "MBBS, MS",
+  "dept_id": 3,
+  "image": "kavya_warrier.png"
+},
+{
+  "_id": {
+    "$oid": "679b135293e21d7ac21b2a34"
+  },
+  "doc_id": 4,
+  "doc_name": "Dr. Rajesh Pillai",
+  "specialization": "Internal Medicine",
+  "qualification": "MBBS, MD",
+  "dept_id": 4,
+  "image": "rajesh_pillai.png"
+},
+{
+  "_id": {
+    "$oid": "679b135293e21d7ac21b2a35"
+  },
+  "doc_id": 5,
+  "doc_name": "Dr. Maria George",
+  "specialization": "Cataract Surgery",
+  "qualification": "MBBS, MS",
+  "dept_id": 5,
+  "image": "maria_george.png"
+},
+{
+  "_id": {
+    "$oid": "679b135293e21d7ac21b2a36"
+  },
+  "doc_id": 6,
+  "doc_name": "Dr. Sreekanth Iyer",
+  "specialization": "Periodontics",
+  "qualification": "BDS, MDS",
+  "dept_id": 1,
+  "image": "sreekanth_iyer.png"
+},
+{
+  "_id": {
+    "$oid": "679b135293e21d7ac21b2a37"
+  },
+  "doc_id": 7,
+  "doc_name": "Dr. Susan Thomas",
+  "specialization": "Neonatal Care",
+  "qualification": "MBBS, DCH",
+  "dept_id": 2,
+  "image": "susan_thomas.png"
+},
+{
+  "_id": {
+    "$oid": "679b135293e21d7ac21b2a38"
+  },
+  "doc_id": 8,
+  "doc_name": "Dr. Hari Sankar",
+  "specialization": "Sinus Surgery",
+  "qualification": "MBBS, MS",
+  "dept_id": 3,
+  "image": "hari_sankar.png"
+},
+{
+  "_id": {
+    "$oid": "679b135293e21d7ac21b2a39"
+  },
+  "doc_id": 9,
+  "doc_name": "Dr. Meera Das",
+  "specialization": "Family Medicine",
+  "qualification": "MBBS",
+  "dept_id": 4,
+  "image": "meera_das.png"
+},
+{
+  "_id": {
+    "$oid": "679b135293e21d7ac21b2a3a"
+  },
+  "doc_id": 10,
+  "doc_name": "Dr. Ameer Ali",
+  "specialization": "Vision Therapy",
+  "qualification": "MBBS, MS",
+  "dept_id": 5,
+  "image": "ameer_ali.png"
+}]
